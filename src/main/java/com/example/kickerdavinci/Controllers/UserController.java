@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-@CrossOrigin(origins = { "https://kickerdavinci.azurewebsites.net" })
+@CrossOrigin(origins = { "https://testappangularweb.azurewebsites.net" })
 @RestController
 public class UserController {
 

@@ -36,4 +36,4 @@ Authorization: {{token}}
 
 
 ### get all users
-GET http://localhost:9003/users
+GET http://localhost:8080/users
