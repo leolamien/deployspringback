@@ -16,8 +16,8 @@ POST http://localhost:9003//authentication/connect
 Content-Type: application/json
 
 {
-  "email": "test",
-  "password": "test"
+  "email": "tester",
+  "password": "tester"
 }
 > {% client.global.set("token", response.body) %}
 
@@ -27,8 +27,8 @@ Content-Type: application/json
 Authorization: {{token}}
 
 {
-  "password": "azhjvhjverty",
-  "email": "azerhjhvjhty",
+  "password": "tester",
+  "email": "tester",
   "birthDate": "2009-12-03",
   "firstname": "mplo",
   "lastname": "olpm"
