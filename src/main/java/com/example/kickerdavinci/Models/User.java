@@ -33,8 +33,6 @@ public class User {
   private String lastname;
   @Column(name = "ranking_points")
   private int rankingPoints;
-  @Column(name="admin_flag")
-  private boolean adminFlag;
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "CLUB_ID", referencedColumnName = "ID")
   private Club club;

@@ -3,11 +3,12 @@ POST http://localhost:9003/user
 Content-Type: application/json
 
 {
-  "password": "test",
-  "email": "test",
+  "password": "tester",
+  "email": "tester",
   "birthDate": "2007-12-03",
   "firstname": "aggzertyy",
-  "lastname": "abhgzerty"
+  "lastname": "abhgzerty",
+  "admin_flag": false
 }
 
 ### Connect user
