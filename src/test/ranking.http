@@ -17,8 +17,7 @@ GET http://localhost:9003/rankings
 ### Delete Name
 DELETE http://localhost:9003/ranking/hgsqddhgvhjed
 
-###
-GET http://localhost:9003/message
+
 
 ### update
 PUT http://localhost:9003/ranking/hgsqddhgvhjed
